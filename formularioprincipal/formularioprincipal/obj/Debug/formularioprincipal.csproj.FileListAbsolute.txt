@@ -1,0 +1,12 @@
+C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\bin\Debug\formularioprincipal.exe
+C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\bin\Debug\formularioprincipal.pdb
+C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.csprojResolveAssemblyReference.cache
+C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.AreaCuadrado.resources
+C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.MainForm.resources
+C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.csproj.GenerateResource.Cache
+C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.exe
+C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.pdb
+C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.Usuario__contraseña.resources
+C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.AreaRectangulo1.resources
+C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.AreaTriangulo1.resources
+C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.Factorial.resources
