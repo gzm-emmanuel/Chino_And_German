@@ -70,12 +70,13 @@ namespace formularioprincipal
 			// 
 			// button1
 			// 
+			this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
 			this.button1.Location = new System.Drawing.Point(52, 52);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(75, 23);
 			this.button1.TabIndex = 6;
 			this.button1.Text = "Calcular";
-			this.button1.UseVisualStyleBackColor = true;
+			this.button1.UseVisualStyleBackColor = false;
 			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
 			// pictureBox1

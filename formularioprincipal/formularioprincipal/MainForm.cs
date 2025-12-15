@@ -57,5 +57,40 @@ namespace formularioprincipal
 			f.MdiParent = this;
 			f.Show();
 		}
+		
+		void FibonnaciToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			Fibonacci f = new Fibonacci();
+			f.MdiParent = this;
+			f.Show();
+		}
+		
+		void KilogramosALibrasToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			KgLibras f = new KgLibras();
+			f.MdiParent = this;
+			f.Show();
+		}
+		
+		void KilómetrosAMillasToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			KmMillas f = new KmMillas();
+			f.MdiParent = this;
+			f.Show();
+		}
+		
+		void SegundosAHorasToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			SegHoras f = new SegHoras();
+			f.MdiParent = this;
+			f.Show();
+		}
+		
+		void CelciusAFahrenheitToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			CelciusFahrenheit f = new CelciusFahrenheit();
+			f.MdiParent = this;
+			f.Show();
+		}
 	}
 }

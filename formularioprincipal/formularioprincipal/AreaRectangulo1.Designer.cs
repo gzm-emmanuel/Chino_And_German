@@ -88,12 +88,13 @@ namespace formularioprincipal
 			// 
 			// btnCalcular
 			// 
+			this.btnCalcular.BackColor = System.Drawing.SystemColors.ActiveCaption;
 			this.btnCalcular.Location = new System.Drawing.Point(69, 84);
 			this.btnCalcular.Name = "btnCalcular";
 			this.btnCalcular.Size = new System.Drawing.Size(75, 23);
 			this.btnCalcular.TabIndex = 5;
 			this.btnCalcular.Text = "Calcular";
-			this.btnCalcular.UseVisualStyleBackColor = true;
+			this.btnCalcular.UseVisualStyleBackColor = false;
 			this.btnCalcular.Click += new System.EventHandler(this.BtnCalcularClick);
 			// 
 			// pictureBox1

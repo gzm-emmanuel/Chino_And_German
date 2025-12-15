@@ -59,9 +59,25 @@
     <Compile Include="AreaTriangulo1.Designer.cs">
       <DependentUpon>AreaTriangulo1.cs</DependentUpon>
     </Compile>
+    <Compile Include="CelciusFahrenheit.cs" />
+    <Compile Include="CelciusFahrenheit.Designer.cs">
+      <DependentUpon>CelciusFahrenheit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Factorial.cs" />
     <Compile Include="Factorial.Designer.cs">
       <DependentUpon>Factorial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fibonacci.cs" />
+    <Compile Include="Fibonacci.Designer.cs">
+      <DependentUpon>Fibonacci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KgLibras.cs" />
+    <Compile Include="KgLibras.Designer.cs">
+      <DependentUpon>KgLibras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KmMillas.cs" />
+    <Compile Include="KmMillas.Designer.cs">
+      <DependentUpon>KmMillas.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs" />
     <Compile Include="MainForm.Designer.cs">
@@ -69,6 +85,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SegHoras.cs" />
+    <Compile Include="SegHoras.Designer.cs">
+      <DependentUpon>SegHoras.cs</DependentUpon>
+    </Compile>
     <Compile Include="Usuario, contraseña.cs" />
     <Compile Include="Usuario, contraseña.Designer.cs">
       <DependentUpon>Usuario, contraseña.cs</DependentUpon>
@@ -84,11 +104,26 @@
     <EmbeddedResource Include="AreaTriangulo1.resx">
       <DependentUpon>AreaTriangulo1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CelciusFahrenheit.resx">
+      <DependentUpon>CelciusFahrenheit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Factorial.resx">
       <DependentUpon>Factorial.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Fibonacci.resx">
+      <DependentUpon>Fibonacci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KgLibras.resx">
+      <DependentUpon>KgLibras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KmMillas.resx">
+      <DependentUpon>KmMillas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SegHoras.resx">
+      <DependentUpon>SegHoras.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Usuario, contraseña.resx">
       <DependentUpon>Usuario, contraseña.cs</DependentUpon>
