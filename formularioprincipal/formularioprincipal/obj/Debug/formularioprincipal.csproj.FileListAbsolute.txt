@@ -10,3 +10,8 @@ C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\D
 C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.AreaRectangulo1.resources
 C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.AreaTriangulo1.resources
 C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.Factorial.resources
+C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.Fibonacci.resources
+C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.KgLibras.resources
+C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.KmMillas.resources
+C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.SegHoras.resources
+C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.CelciusFahrenheit.resources

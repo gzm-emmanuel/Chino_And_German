@@ -97,15 +97,16 @@ namespace formularioprincipal
 			// factorialToolStripMenuItem
 			// 
 			this.factorialToolStripMenuItem.Name = "factorialToolStripMenuItem";
-			this.factorialToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+			this.factorialToolStripMenuItem.Size = new System.Drawing.Size(142, 24);
 			this.factorialToolStripMenuItem.Text = "Factorial";
 			this.factorialToolStripMenuItem.Click += new System.EventHandler(this.FactorialToolStripMenuItemClick);
 			// 
 			// fibonnaciToolStripMenuItem
 			// 
 			this.fibonnaciToolStripMenuItem.Name = "fibonnaciToolStripMenuItem";
-			this.fibonnaciToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+			this.fibonnaciToolStripMenuItem.Size = new System.Drawing.Size(142, 24);
 			this.fibonnaciToolStripMenuItem.Text = "Fibonnaci";
+			this.fibonnaciToolStripMenuItem.Click += new System.EventHandler(this.FibonnaciToolStripMenuItemClick);
 			// 
 			// aREAToolStripMenuItem
 			// 
@@ -172,19 +173,19 @@ namespace formularioprincipal
 			// esferaToolStripMenuItem
 			// 
 			this.esferaToolStripMenuItem.Name = "esferaToolStripMenuItem";
-			this.esferaToolStripMenuItem.Size = new System.Drawing.Size(137, 24);
+			this.esferaToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
 			this.esferaToolStripMenuItem.Text = "Esfera";
 			// 
 			// cuboToolStripMenuItem
 			// 
 			this.cuboToolStripMenuItem.Name = "cuboToolStripMenuItem";
-			this.cuboToolStripMenuItem.Size = new System.Drawing.Size(137, 24);
+			this.cuboToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
 			this.cuboToolStripMenuItem.Text = "Cubo";
 			// 
 			// pirámideToolStripMenuItem
 			// 
 			this.pirámideToolStripMenuItem.Name = "pirámideToolStripMenuItem";
-			this.pirámideToolStripMenuItem.Size = new System.Drawing.Size(137, 24);
+			this.pirámideToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
 			this.pirámideToolStripMenuItem.Text = "Pirámide";
 			// 
 			// cONVERSIONESToolStripMenuItem
@@ -211,6 +212,7 @@ namespace formularioprincipal
 			this.kilómetrosAMillasToolStripMenuItem.Name = "kilómetrosAMillasToolStripMenuItem";
 			this.kilómetrosAMillasToolStripMenuItem.Size = new System.Drawing.Size(203, 24);
 			this.kilómetrosAMillasToolStripMenuItem.Text = "kilómetros a Millas";
+			this.kilómetrosAMillasToolStripMenuItem.Click += new System.EventHandler(this.KilómetrosAMillasToolStripMenuItemClick);
 			// 
 			// masaToolStripMenuItem
 			// 
@@ -225,6 +227,7 @@ namespace formularioprincipal
 			this.kilogramosALibrasToolStripMenuItem.Name = "kilogramosALibrasToolStripMenuItem";
 			this.kilogramosALibrasToolStripMenuItem.Size = new System.Drawing.Size(209, 24);
 			this.kilogramosALibrasToolStripMenuItem.Text = "Kilogramos a Libras";
+			this.kilogramosALibrasToolStripMenuItem.Click += new System.EventHandler(this.KilogramosALibrasToolStripMenuItemClick);
 			// 
 			// temperaturaToolStripMenuItem
 			// 
@@ -239,6 +242,7 @@ namespace formularioprincipal
 			this.celciusAFahrenheitToolStripMenuItem.Name = "celciusAFahrenheitToolStripMenuItem";
 			this.celciusAFahrenheitToolStripMenuItem.Size = new System.Drawing.Size(208, 24);
 			this.celciusAFahrenheitToolStripMenuItem.Text = "Celcius a Fahrenheit";
+			this.celciusAFahrenheitToolStripMenuItem.Click += new System.EventHandler(this.CelciusAFahrenheitToolStripMenuItemClick);
 			// 
 			// tiempoToolStripMenuItem
 			// 
@@ -253,6 +257,7 @@ namespace formularioprincipal
 			this.segundosAHorasToolStripMenuItem.Name = "segundosAHorasToolStripMenuItem";
 			this.segundosAHorasToolStripMenuItem.Size = new System.Drawing.Size(198, 24);
 			this.segundosAHorasToolStripMenuItem.Text = "Segundos a Horas";
+			this.segundosAHorasToolStripMenuItem.Click += new System.EventHandler(this.SegundosAHorasToolStripMenuItemClick);
 			// 
 			// bOLETAToolStripMenuItem
 			// 

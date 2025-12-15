@@ -1,14 +1,14 @@
 ﻿/*
  * Creado por SharpDevelop.
  * Usuario: makir
- * Fecha: 11/12/2025
- * Hora: 12:51 p. m.
+ * Fecha: 15/12/2025
+ * Hora: 02:53 p. m.
  * 
  * Para cambiar esta plantilla use Herramientas | Opciones | Codificación | Editar Encabezados Estándar
  */
 namespace formularioprincipal
 {
-	partial class AreaTriangulo1
+	partial class KmMillas
 	{
 		/// <summary>
 		/// Designer variable used to keep track of non-visual components.
@@ -38,81 +38,59 @@ namespace formularioprincipal
 		{
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
-			this.label3 = new System.Windows.Forms.Label();
-			this.button1 = new System.Windows.Forms.Button();
 			this.textBox1 = new System.Windows.Forms.TextBox();
-			this.textBox2 = new System.Windows.Forms.TextBox();
+			this.button1 = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(28, 163);
+			this.label1.Location = new System.Drawing.Point(40, 27);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 23);
 			this.label1.TabIndex = 0;
-			this.label1.Text = "Area";
+			this.label1.Text = "label1";
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(39, 85);
+			this.label2.Location = new System.Drawing.Point(40, 88);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(100, 23);
 			this.label2.TabIndex = 1;
-			this.label2.Text = "Altura";
-			// 
-			// label3
-			// 
-			this.label3.Location = new System.Drawing.Point(39, 32);
-			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(100, 23);
-			this.label3.TabIndex = 2;
-			this.label3.Text = "Area:";
-			// 
-			// button1
-			// 
-			this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-			this.button1.Location = new System.Drawing.Point(145, 129);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(75, 23);
-			this.button1.TabIndex = 3;
-			this.button1.Text = "Calcular";
-			this.button1.UseVisualStyleBackColor = false;
-			this.button1.Click += new System.EventHandler(this.Button1Click);
+			this.label2.Text = "label2";
 			// 
 			// textBox1
 			// 
-			this.textBox1.Location = new System.Drawing.Point(145, 32);
+			this.textBox1.Location = new System.Drawing.Point(228, 37);
 			this.textBox1.Name = "textBox1";
 			this.textBox1.Size = new System.Drawing.Size(100, 22);
-			this.textBox1.TabIndex = 4;
+			this.textBox1.TabIndex = 2;
 			// 
-			// textBox2
+			// button1
 			// 
-			this.textBox2.Location = new System.Drawing.Point(145, 86);
-			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(100, 22);
-			this.textBox2.TabIndex = 5;
+			this.button1.Location = new System.Drawing.Point(147, 151);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(75, 23);
+			this.button1.TabIndex = 3;
+			this.button1.Text = "button1";
+			this.button1.UseVisualStyleBackColor = true;
+			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
-			// AreaTriangulo1
+			// KmMillas
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(422, 301);
-			this.Controls.Add(this.textBox2);
-			this.Controls.Add(this.textBox1);
+			this.ClientSize = new System.Drawing.Size(416, 253);
 			this.Controls.Add(this.button1);
-			this.Controls.Add(this.label3);
+			this.Controls.Add(this.textBox1);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
-			this.Name = "AreaTriangulo1";
-			this.Text = "AreaTriangulo1";
+			this.Name = "KmMillas";
+			this.Text = "KmMillas";
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
-		private System.Windows.Forms.TextBox textBox2;
-		private System.Windows.Forms.TextBox textBox1;
 		private System.Windows.Forms.Button button1;
-		private System.Windows.Forms.Label label3;
+		private System.Windows.Forms.TextBox textBox1;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label1;
 	}

@@ -48,7 +48,7 @@ namespace formularioprincipal
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 23);
 			this.label1.TabIndex = 0;
-			this.label1.Text = "label1";
+			this.label1.Text = "Numero";
 			// 
 			// label2
 			// 
@@ -56,7 +56,7 @@ namespace formularioprincipal
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(377, 23);
 			this.label2.TabIndex = 1;
-			this.label2.Text = "label2";
+			this.label2.Text = "Resultado:";
 			// 
 			// textBox1
 			// 
@@ -67,12 +67,13 @@ namespace formularioprincipal
 			// 
 			// button1
 			// 
-			this.button1.Location = new System.Drawing.Point(192, 127);
+			this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+			this.button1.Location = new System.Drawing.Point(150, 123);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(75, 23);
 			this.button1.TabIndex = 3;
-			this.button1.Text = "button1";
-			this.button1.UseVisualStyleBackColor = true;
+			this.button1.Text = "Calcular";
+			this.button1.UseVisualStyleBackColor = false;
 			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
 			// Factorial
