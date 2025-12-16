@@ -44,6 +44,7 @@ namespace formularioprincipal
 			// 
 			// label1
 			// 
+			this.label1.BackColor = System.Drawing.SystemColors.ButtonFace;
 			this.label1.Location = new System.Drawing.Point(44, 41);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 23);
@@ -52,9 +53,10 @@ namespace formularioprincipal
 			// 
 			// label2
 			// 
+			this.label2.BackColor = System.Drawing.SystemColors.ButtonFace;
 			this.label2.Location = new System.Drawing.Point(44, 97);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(377, 23);
+			this.label2.Size = new System.Drawing.Size(100, 23);
 			this.label2.TabIndex = 1;
 			this.label2.Text = "Resultado:";
 			// 
@@ -80,6 +82,7 @@ namespace formularioprincipal
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.Color.SeaShell;
 			this.ClientSize = new System.Drawing.Size(422, 253);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.textBox1);

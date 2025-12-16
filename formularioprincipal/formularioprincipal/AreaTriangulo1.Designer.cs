@@ -36,17 +36,21 @@ namespace formularioprincipal
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AreaTriangulo1));
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
 			this.button1 = new System.Windows.Forms.Button();
 			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.textBox2 = new System.Windows.Forms.TextBox();
+			this.pictureBox1 = new System.Windows.Forms.PictureBox();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(28, 163);
+			this.label1.BackColor = System.Drawing.Color.AliceBlue;
+			this.label1.Location = new System.Drawing.Point(23, 165);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 23);
 			this.label1.TabIndex = 0;
@@ -54,6 +58,7 @@ namespace formularioprincipal
 			// 
 			// label2
 			// 
+			this.label2.BackColor = System.Drawing.Color.AliceBlue;
 			this.label2.Location = new System.Drawing.Point(39, 85);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(100, 23);
@@ -62,6 +67,7 @@ namespace formularioprincipal
 			// 
 			// label3
 			// 
+			this.label3.BackColor = System.Drawing.Color.AliceBlue;
 			this.label3.Location = new System.Drawing.Point(39, 32);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(100, 23);
@@ -93,11 +99,23 @@ namespace formularioprincipal
 			this.textBox2.Size = new System.Drawing.Size(100, 22);
 			this.textBox2.TabIndex = 5;
 			// 
+			// pictureBox1
+			// 
+			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+			this.pictureBox1.Location = new System.Drawing.Point(341, 32);
+			this.pictureBox1.Name = "pictureBox1";
+			this.pictureBox1.Size = new System.Drawing.Size(342, 143);
+			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+			this.pictureBox1.TabIndex = 6;
+			this.pictureBox1.TabStop = false;
+			// 
 			// AreaTriangulo1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(422, 301);
+			this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+			this.ClientSize = new System.Drawing.Size(760, 224);
+			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.textBox2);
 			this.Controls.Add(this.textBox1);
 			this.Controls.Add(this.button1);
@@ -106,9 +124,12 @@ namespace formularioprincipal
 			this.Controls.Add(this.label1);
 			this.Name = "AreaTriangulo1";
 			this.Text = "AreaTriangulo1";
+			this.Load += new System.EventHandler(this.AreaTriangulo1Load);
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.TextBox textBox2;
 		private System.Windows.Forms.TextBox textBox1;
 		private System.Windows.Forms.Button button1;
