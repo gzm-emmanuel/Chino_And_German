@@ -44,19 +44,21 @@ namespace formularioprincipal
 			// 
 			// label1
 			// 
+			this.label1.BackColor = System.Drawing.Color.AliceBlue;
 			this.label1.Location = new System.Drawing.Point(32, 44);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 23);
 			this.label1.TabIndex = 0;
-			this.label1.Text = "label1";
+			this.label1.Text = "Celcius";
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(32, 99);
+			this.label2.BackColor = System.Drawing.Color.AliceBlue;
+			this.label2.Location = new System.Drawing.Point(32, 86);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(350, 23);
+			this.label2.Size = new System.Drawing.Size(235, 23);
 			this.label2.TabIndex = 1;
-			this.label2.Text = "label2";
+			this.label2.Text = "Fahrenheit";
 			// 
 			// textBox1
 			// 
@@ -67,11 +69,11 @@ namespace formularioprincipal
 			// 
 			// button1
 			// 
-			this.button1.Location = new System.Drawing.Point(154, 133);
+			this.button1.Location = new System.Drawing.Point(122, 136);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(75, 23);
 			this.button1.TabIndex = 3;
-			this.button1.Text = "button1";
+			this.button1.Text = "Calcular";
 			this.button1.UseVisualStyleBackColor = true;
 			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
@@ -79,7 +81,8 @@ namespace formularioprincipal
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(411, 253);
+			this.BackColor = System.Drawing.Color.LightSkyBlue;
+			this.ClientSize = new System.Drawing.Size(338, 220);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.textBox1);
 			this.Controls.Add(this.label2);

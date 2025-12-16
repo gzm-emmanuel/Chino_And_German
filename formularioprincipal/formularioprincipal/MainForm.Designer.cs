@@ -87,6 +87,7 @@ namespace formularioprincipal
 			// 
 			// aPLICACIONESToolStripMenuItem
 			// 
+			this.aPLICACIONESToolStripMenuItem.BackColor = System.Drawing.Color.LightGreen;
 			this.aPLICACIONESToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
 									this.factorialToolStripMenuItem,
 									this.fibonnaciToolStripMenuItem});
@@ -110,6 +111,7 @@ namespace formularioprincipal
 			// 
 			// aREAToolStripMenuItem
 			// 
+			this.aREAToolStripMenuItem.BackColor = System.Drawing.Color.Pink;
 			this.aREAToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
 									this.cuadradoToolStripMenuItem,
 									this.rectánguloToolStripMenuItem,
@@ -141,6 +143,7 @@ namespace formularioprincipal
 			// 
 			// pERIMETROToolStripMenuItem
 			// 
+			this.pERIMETROToolStripMenuItem.BackColor = System.Drawing.Color.Gold;
 			this.pERIMETROToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
 									this.circunferenciaToolStripMenuItem,
 									this.trapecioToolStripMenuItem});
@@ -164,6 +167,7 @@ namespace formularioprincipal
 			// 
 			// vOLUMENToolStripMenuItem
 			// 
+			this.vOLUMENToolStripMenuItem.BackColor = System.Drawing.Color.Yellow;
 			this.vOLUMENToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
 									this.esferaToolStripMenuItem,
 									this.cuboToolStripMenuItem,
@@ -175,26 +179,27 @@ namespace formularioprincipal
 			// esferaToolStripMenuItem
 			// 
 			this.esferaToolStripMenuItem.Name = "esferaToolStripMenuItem";
-			this.esferaToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+			this.esferaToolStripMenuItem.Size = new System.Drawing.Size(137, 24);
 			this.esferaToolStripMenuItem.Text = "Esfera";
 			this.esferaToolStripMenuItem.Click += new System.EventHandler(this.EsferaToolStripMenuItemClick);
 			// 
 			// cuboToolStripMenuItem
 			// 
 			this.cuboToolStripMenuItem.Name = "cuboToolStripMenuItem";
-			this.cuboToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+			this.cuboToolStripMenuItem.Size = new System.Drawing.Size(137, 24);
 			this.cuboToolStripMenuItem.Text = "Cubo";
 			this.cuboToolStripMenuItem.Click += new System.EventHandler(this.CuboToolStripMenuItemClick);
 			// 
 			// pirámideToolStripMenuItem
 			// 
 			this.pirámideToolStripMenuItem.Name = "pirámideToolStripMenuItem";
-			this.pirámideToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+			this.pirámideToolStripMenuItem.Size = new System.Drawing.Size(137, 24);
 			this.pirámideToolStripMenuItem.Text = "Pirámide";
 			this.pirámideToolStripMenuItem.Click += new System.EventHandler(this.PirámideToolStripMenuItemClick);
 			// 
 			// cONVERSIONESToolStripMenuItem
 			// 
+			this.cONVERSIONESToolStripMenuItem.BackColor = System.Drawing.Color.RoyalBlue;
 			this.cONVERSIONESToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
 									this.longitudToolStripMenuItem,
 									this.masaToolStripMenuItem,
@@ -266,24 +271,28 @@ namespace formularioprincipal
 			// 
 			// bOLETAToolStripMenuItem
 			// 
+			this.bOLETAToolStripMenuItem.BackColor = System.Drawing.Color.MediumOrchid;
 			this.bOLETAToolStripMenuItem.Name = "bOLETAToolStripMenuItem";
 			this.bOLETAToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
 			this.bOLETAToolStripMenuItem.Text = "BOLETA";
 			// 
 			// pOSTRESToolStripMenuItem
 			// 
+			this.pOSTRESToolStripMenuItem.BackColor = System.Drawing.Color.Orchid;
 			this.pOSTRESToolStripMenuItem.Name = "pOSTRESToolStripMenuItem";
 			this.pOSTRESToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
 			this.pOSTRESToolStripMenuItem.Text = "POSTRES";
 			// 
 			// eMPLEADOSToolStripMenuItem
 			// 
+			this.eMPLEADOSToolStripMenuItem.BackColor = System.Drawing.Color.Aquamarine;
 			this.eMPLEADOSToolStripMenuItem.Name = "eMPLEADOSToolStripMenuItem";
 			this.eMPLEADOSToolStripMenuItem.Size = new System.Drawing.Size(105, 24);
 			this.eMPLEADOSToolStripMenuItem.Text = "EMPLEADOS";
 			// 
 			// sALIRToolStripMenuItem
 			// 
+			this.sALIRToolStripMenuItem.BackColor = System.Drawing.Color.Red;
 			this.sALIRToolStripMenuItem.Name = "sALIRToolStripMenuItem";
 			this.sALIRToolStripMenuItem.Size = new System.Drawing.Size(59, 24);
 			this.sALIRToolStripMenuItem.Text = "SALIR";
@@ -292,12 +301,15 @@ namespace formularioprincipal
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.Color.Snow;
 			this.ClientSize = new System.Drawing.Size(931, 365);
 			this.Controls.Add(this.menuStrip1);
+			this.ForeColor = System.Drawing.Color.SeaShell;
 			this.IsMdiContainer = true;
 			this.MainMenuStrip = this.menuStrip1;
 			this.Name = "MainForm";
 			this.Text = "formularioprincipal";
+			this.Load += new System.EventHandler(this.MainFormLoad);
 			this.menuStrip1.ResumeLayout(false);
 			this.menuStrip1.PerformLayout();
 			this.ResumeLayout(false);

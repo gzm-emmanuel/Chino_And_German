@@ -50,9 +50,9 @@ namespace formularioprincipal
 			// label1
 			// 
 			this.label1.BackColor = System.Drawing.Color.AliceBlue;
-			this.label1.Location = new System.Drawing.Point(23, 165);
+			this.label1.Location = new System.Drawing.Point(29, 166);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(100, 23);
+			this.label1.Size = new System.Drawing.Size(224, 23);
 			this.label1.TabIndex = 0;
 			this.label1.Text = "Area";
 			// 
@@ -77,7 +77,7 @@ namespace formularioprincipal
 			// button1
 			// 
 			this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-			this.button1.Location = new System.Drawing.Point(145, 129);
+			this.button1.Location = new System.Drawing.Point(111, 126);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(75, 23);
 			this.button1.TabIndex = 3;

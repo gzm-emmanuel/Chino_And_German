@@ -129,5 +129,10 @@ namespace formularioprincipal
 			f.MdiParent = this;
 			f.Show();
 		}
+		
+		void MainFormLoad(object sender, EventArgs e)
+		{
+			
+		}
 	}
 }
