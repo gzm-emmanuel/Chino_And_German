@@ -1,0 +1,14 @@
+C:\Users\CC1_PC50\Documents\SharpDevelop Projects\detallesdecliente\detallesdecliente\bin\Debug\detallesdecliente.exe
+C:\Users\CC1_PC50\Documents\SharpDevelop Projects\detallesdecliente\detallesdecliente\bin\Debug\detallesdecliente.pdb
+C:\Users\CC1_PC50\Documents\SharpDevelop Projects\detallesdecliente\detallesdecliente\obj\Debug\detallesdecliente.csprojResolveAssemblyReference.cache
+C:\Users\CC1_PC50\Documents\SharpDevelop Projects\detallesdecliente\detallesdecliente\obj\Debug\detallesdecliente.MainForm.resources
+C:\Users\CC1_PC50\Documents\SharpDevelop Projects\detallesdecliente\detallesdecliente\obj\Debug\detallesdecliente.csproj.GenerateResource.Cache
+C:\Users\CC1_PC50\Documents\SharpDevelop Projects\detallesdecliente\detallesdecliente\obj\Debug\detallesdecliente.exe
+C:\Users\CC1_PC50\Documents\SharpDevelop Projects\detallesdecliente\detallesdecliente\obj\Debug\detallesdecliente.pdb
+C:\Users\CC1_PC50\Downloads\detallesdecliente\detallesdecliente\detallesdecliente\obj\Debug\detallesdecliente.csprojResolveAssemblyReference.cache
+C:\Users\CC1_PC50\Downloads\detallesdecliente\detallesdecliente\detallesdecliente\obj\Debug\detallesdecliente.MainForm.resources
+C:\Users\CC1_PC50\Downloads\detallesdecliente\detallesdecliente\detallesdecliente\obj\Debug\detallesdecliente.csproj.GenerateResource.Cache
+C:\Users\CC1_PC50\Downloads\detallesdecliente\detallesdecliente\detallesdecliente\obj\Debug\detallesdecliente.exe
+C:\Users\CC1_PC50\Downloads\detallesdecliente\detallesdecliente\detallesdecliente\bin\Debug\detallesdecliente.exe
+C:\Users\CC1_PC50\Downloads\detallesdecliente\detallesdecliente\detallesdecliente\bin\Debug\detallesdecliente.pdb
+C:\Users\CC1_PC50\Downloads\detallesdecliente\detallesdecliente\detallesdecliente\obj\Debug\detallesdecliente.pdb
