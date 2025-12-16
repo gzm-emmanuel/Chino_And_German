@@ -42,5 +42,10 @@ namespace formularioprincipal
 			double area = (b * h) / 2;
 			label1.Text = "Area: " + area;
 		} 
+		
+		void AreaTriangulo1Load(object sender, EventArgs e)
+		{
+			
+		}
 	}
 }

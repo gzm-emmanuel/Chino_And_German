@@ -47,7 +47,9 @@ namespace formularioprincipal
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(12, 9);
+			this.label1.BackColor = System.Drawing.Color.ForestGreen;
+			this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+			this.label1.Location = new System.Drawing.Point(12, 23);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 23);
 			this.label1.TabIndex = 0;
@@ -55,14 +57,16 @@ namespace formularioprincipal
 			// 
 			// textBox1
 			// 
-			this.textBox1.Location = new System.Drawing.Point(117, 9);
+			this.textBox1.Location = new System.Drawing.Point(129, 23);
 			this.textBox1.Name = "textBox1";
 			this.textBox1.Size = new System.Drawing.Size(100, 22);
 			this.textBox1.TabIndex = 1;
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(12, 110);
+			this.label3.BackColor = System.Drawing.Color.ForestGreen;
+			this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+			this.label3.Location = new System.Drawing.Point(77, 125);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(100, 23);
 			this.label3.TabIndex = 4;
@@ -70,8 +74,8 @@ namespace formularioprincipal
 			// 
 			// button1
 			// 
-			this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-			this.button1.Location = new System.Drawing.Point(52, 52);
+			this.button1.BackColor = System.Drawing.SystemColors.ButtonFace;
+			this.button1.Location = new System.Drawing.Point(88, 74);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(75, 23);
 			this.button1.TabIndex = 6;
@@ -82,9 +86,9 @@ namespace formularioprincipal
 			// pictureBox1
 			// 
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(223, 12);
+			this.pictureBox1.Location = new System.Drawing.Point(264, 12);
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(132, 110);
+			this.pictureBox1.Size = new System.Drawing.Size(200, 161);
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox1.TabIndex = 7;
 			this.pictureBox1.TabStop = false;
@@ -94,7 +98,8 @@ namespace formularioprincipal
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(376, 147);
+			this.BackColor = System.Drawing.Color.DarkMagenta;
+			this.ClientSize = new System.Drawing.Size(486, 191);
 			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.label3);

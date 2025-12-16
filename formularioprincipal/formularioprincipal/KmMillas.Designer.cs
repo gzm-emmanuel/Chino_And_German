@@ -44,23 +44,25 @@ namespace formularioprincipal
 			// 
 			// label1
 			// 
+			this.label1.BackColor = System.Drawing.Color.LavenderBlush;
 			this.label1.Location = new System.Drawing.Point(40, 27);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 23);
 			this.label1.TabIndex = 0;
-			this.label1.Text = "label1";
+			this.label1.Text = "Kilometros:";
 			// 
 			// label2
 			// 
+			this.label2.BackColor = System.Drawing.Color.LavenderBlush;
 			this.label2.Location = new System.Drawing.Point(40, 88);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(100, 23);
 			this.label2.TabIndex = 1;
-			this.label2.Text = "label2";
+			this.label2.Text = "Millas";
 			// 
 			// textBox1
 			// 
-			this.textBox1.Location = new System.Drawing.Point(228, 37);
+			this.textBox1.Location = new System.Drawing.Point(199, 28);
 			this.textBox1.Name = "textBox1";
 			this.textBox1.Size = new System.Drawing.Size(100, 22);
 			this.textBox1.TabIndex = 2;
@@ -79,6 +81,7 @@ namespace formularioprincipal
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.Color.Pink;
 			this.ClientSize = new System.Drawing.Size(416, 253);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.textBox1);

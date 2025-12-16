@@ -63,14 +63,16 @@ namespace formularioprincipal
 			// 
 			// lblResultado
 			// 
+			this.lblResultado.Font = new System.Drawing.Font("MV Boli", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblResultado.Location = new System.Drawing.Point(12, 110);
 			this.lblResultado.Name = "lblResultado";
-			this.lblResultado.Size = new System.Drawing.Size(100, 23);
+			this.lblResultado.Size = new System.Drawing.Size(264, 23);
 			this.lblResultado.TabIndex = 2;
 			this.lblResultado.Text = "Area:";
 			// 
 			// label2
 			// 
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.Location = new System.Drawing.Point(12, 19);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(100, 23);
@@ -80,6 +82,7 @@ namespace formularioprincipal
 			// 
 			// label3
 			// 
+			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label3.Location = new System.Drawing.Point(12, 55);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(100, 23);
@@ -89,7 +92,7 @@ namespace formularioprincipal
 			// btnCalcular
 			// 
 			this.btnCalcular.BackColor = System.Drawing.SystemColors.ActiveCaption;
-			this.btnCalcular.Location = new System.Drawing.Point(69, 84);
+			this.btnCalcular.Location = new System.Drawing.Point(100, 190);
 			this.btnCalcular.Name = "btnCalcular";
 			this.btnCalcular.Size = new System.Drawing.Size(75, 23);
 			this.btnCalcular.TabIndex = 5;
@@ -100,9 +103,9 @@ namespace formularioprincipal
 			// pictureBox1
 			// 
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(224, 4);
+			this.pictureBox1.Location = new System.Drawing.Point(282, 33);
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(166, 115);
+			this.pictureBox1.Size = new System.Drawing.Size(297, 152);
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
 			this.pictureBox1.TabIndex = 6;
 			this.pictureBox1.TabStop = false;
@@ -111,7 +114,8 @@ namespace formularioprincipal
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(421, 179);
+			this.BackColor = System.Drawing.Color.Honeydew;
+			this.ClientSize = new System.Drawing.Size(604, 253);
 			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.btnCalcular);
 			this.Controls.Add(this.label3);
