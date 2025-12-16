@@ -1,0 +1,11 @@
+C:\Users\zamud\Pasteleria\Pastel_Cake\Pastel_Cake\obj\Debug\Pastel_Cake.csprojResolveAssemblyReference.cache
+C:\Users\zamud\Pasteleria\Pastel_Cake\Pastel_Cake\obj\Debug\Pastel_Cake.MainForm.resources
+C:\Users\zamud\Pasteleria\Pastel_Cake\Pastel_Cake\obj\Debug\Pastel_Cake.csproj.GenerateResource.Cache
+C:\Users\CC1_PC40\Downloads\Pastel_Cake\Pastel_Cake\Pastel_Cake\obj\Debug\Pastel_Cake.csprojResolveAssemblyReference.cache
+C:\Users\CC1_PC40\Downloads\Pastel_Cake\Pastel_Cake\Pastel_Cake\obj\Debug\Pastel_Cake.MainForm.resources
+C:\Users\CC1_PC40\Downloads\Pastel_Cake\Pastel_Cake\Pastel_Cake\obj\Debug\Pastel_Cake.csproj.GenerateResource.Cache
+C:\Users\CC1_PC40\Downloads\Pastel_Cake\Pastel_Cake\Pastel_Cake\bin\Debug\Pastel_Cake.exe.config
+C:\Users\CC1_PC40\Downloads\Pastel_Cake\Pastel_Cake\Pastel_Cake\bin\Debug\Pastel_Cake.exe
+C:\Users\CC1_PC40\Downloads\Pastel_Cake\Pastel_Cake\Pastel_Cake\bin\Debug\Pastel_Cake.pdb
+C:\Users\CC1_PC40\Downloads\Pastel_Cake\Pastel_Cake\Pastel_Cake\obj\Debug\Pastel_Cake.exe
+C:\Users\CC1_PC40\Downloads\Pastel_Cake\Pastel_Cake\Pastel_Cake\obj\Debug\Pastel_Cake.pdb
