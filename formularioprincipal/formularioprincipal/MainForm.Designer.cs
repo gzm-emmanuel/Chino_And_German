@@ -153,12 +153,14 @@ namespace formularioprincipal
 			this.circunferenciaToolStripMenuItem.Name = "circunferenciaToolStripMenuItem";
 			this.circunferenciaToolStripMenuItem.Size = new System.Drawing.Size(172, 24);
 			this.circunferenciaToolStripMenuItem.Text = "Circunferencia";
+			this.circunferenciaToolStripMenuItem.Click += new System.EventHandler(this.CircunferenciaToolStripMenuItemClick);
 			// 
 			// trapecioToolStripMenuItem
 			// 
 			this.trapecioToolStripMenuItem.Name = "trapecioToolStripMenuItem";
 			this.trapecioToolStripMenuItem.Size = new System.Drawing.Size(172, 24);
 			this.trapecioToolStripMenuItem.Text = "Trapecio";
+			this.trapecioToolStripMenuItem.Click += new System.EventHandler(this.TrapecioToolStripMenuItemClick);
 			// 
 			// vOLUMENToolStripMenuItem
 			// 
@@ -175,18 +177,21 @@ namespace formularioprincipal
 			this.esferaToolStripMenuItem.Name = "esferaToolStripMenuItem";
 			this.esferaToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
 			this.esferaToolStripMenuItem.Text = "Esfera";
+			this.esferaToolStripMenuItem.Click += new System.EventHandler(this.EsferaToolStripMenuItemClick);
 			// 
 			// cuboToolStripMenuItem
 			// 
 			this.cuboToolStripMenuItem.Name = "cuboToolStripMenuItem";
 			this.cuboToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
 			this.cuboToolStripMenuItem.Text = "Cubo";
+			this.cuboToolStripMenuItem.Click += new System.EventHandler(this.CuboToolStripMenuItemClick);
 			// 
 			// pirámideToolStripMenuItem
 			// 
 			this.pirámideToolStripMenuItem.Name = "pirámideToolStripMenuItem";
 			this.pirámideToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
 			this.pirámideToolStripMenuItem.Text = "Pirámide";
+			this.pirámideToolStripMenuItem.Click += new System.EventHandler(this.PirámideToolStripMenuItemClick);
 			// 
 			// cONVERSIONESToolStripMenuItem
 			// 
