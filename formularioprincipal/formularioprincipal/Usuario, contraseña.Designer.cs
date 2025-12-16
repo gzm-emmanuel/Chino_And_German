@@ -45,7 +45,7 @@ namespace formularioprincipal
 			// 
 			// txtUsuario
 			// 
-			this.txtUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+			this.txtUsuario.BackColor = System.Drawing.Color.Azure;
 			this.txtUsuario.Location = new System.Drawing.Point(149, 36);
 			this.txtUsuario.Name = "txtUsuario";
 			this.txtUsuario.Size = new System.Drawing.Size(100, 22);
@@ -53,7 +53,7 @@ namespace formularioprincipal
 			// 
 			// txtPassword
 			// 
-			this.txtPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+			this.txtPassword.BackColor = System.Drawing.Color.Azure;
 			this.txtPassword.Location = new System.Drawing.Point(149, 113);
 			this.txtPassword.Name = "txtPassword";
 			this.txtPassword.Size = new System.Drawing.Size(100, 22);
@@ -62,7 +62,7 @@ namespace formularioprincipal
 			// btnEntrar
 			// 
 			this.btnEntrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-			this.btnEntrar.Location = new System.Drawing.Point(90, 165);
+			this.btnEntrar.Location = new System.Drawing.Point(107, 170);
 			this.btnEntrar.Name = "btnEntrar";
 			this.btnEntrar.Size = new System.Drawing.Size(75, 23);
 			this.btnEntrar.TabIndex = 2;
@@ -72,6 +72,7 @@ namespace formularioprincipal
 			// 
 			// label1
 			// 
+			this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.Location = new System.Drawing.Point(12, 39);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 23);
@@ -80,9 +81,10 @@ namespace formularioprincipal
 			// 
 			// label2
 			// 
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.Location = new System.Drawing.Point(12, 112);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(113, 23);
+			this.label2.Size = new System.Drawing.Size(131, 23);
 			this.label2.TabIndex = 4;
 			this.label2.Text = "CONTRASEÑA";
 			// 
@@ -90,7 +92,7 @@ namespace formularioprincipal
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+			this.BackColor = System.Drawing.SystemColors.Info;
 			this.ClientSize = new System.Drawing.Size(279, 256);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);

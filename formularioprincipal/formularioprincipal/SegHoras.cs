@@ -40,5 +40,10 @@ namespace formularioprincipal
 			double horas = seg / 3600.0;
 			label2.Text = "Horas: " + horas.ToString("0.00");
 		}
+		
+		void SegHorasLoad(object sender, EventArgs e)
+		{
+			
+		}
 	}
 }

@@ -44,23 +44,25 @@ namespace formularioprincipal
 			// 
 			// label1
 			// 
+			this.label1.BackColor = System.Drawing.Color.Cornsilk;
 			this.label1.Location = new System.Drawing.Point(35, 32);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 23);
 			this.label1.TabIndex = 0;
-			this.label1.Text = "label1";
+			this.label1.Text = "Segundos";
 			// 
 			// label2
 			// 
+			this.label2.BackColor = System.Drawing.Color.Cornsilk;
 			this.label2.Location = new System.Drawing.Point(35, 93);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(100, 23);
+			this.label2.Size = new System.Drawing.Size(200, 23);
 			this.label2.TabIndex = 1;
-			this.label2.Text = "label2";
+			this.label2.Text = "Horas";
 			// 
 			// textBox1
 			// 
-			this.textBox1.Location = new System.Drawing.Point(206, 33);
+			this.textBox1.Location = new System.Drawing.Point(176, 29);
 			this.textBox1.Name = "textBox1";
 			this.textBox1.Size = new System.Drawing.Size(100, 22);
 			this.textBox1.TabIndex = 2;
@@ -71,7 +73,7 @@ namespace formularioprincipal
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(75, 23);
 			this.button1.TabIndex = 3;
-			this.button1.Text = "button1";
+			this.button1.Text = "Calcular";
 			this.button1.UseVisualStyleBackColor = true;
 			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
@@ -79,13 +81,15 @@ namespace formularioprincipal
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(401, 253);
+			this.BackColor = System.Drawing.Color.PaleGoldenrod;
+			this.ClientSize = new System.Drawing.Size(319, 184);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.textBox1);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Name = "SegHoras";
 			this.Text = "SegHoras";
+			this.Load += new System.EventHandler(this.SegHorasLoad);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}

@@ -73,7 +73,7 @@ namespace formularioprincipal
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(75, 23);
 			this.button1.TabIndex = 3;
-			this.button1.Text = "button1";
+			this.button1.Text = "Calcular";
 			this.button1.UseVisualStyleBackColor = true;
 			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
@@ -82,7 +82,7 @@ namespace formularioprincipal
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.Pink;
-			this.ClientSize = new System.Drawing.Size(416, 253);
+			this.ClientSize = new System.Drawing.Size(393, 204);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.textBox1);
 			this.Controls.Add(this.label2);
