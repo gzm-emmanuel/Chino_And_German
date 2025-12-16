@@ -30,12 +30,7 @@ namespace formularioprincipal
 			//
 		}
 		
-		void CuadradoToolStripMenuItemClick(object sender, EventArgs e)
-		{
-			AreaCuadrado f = new AreaCuadrado();
-			f.MdiParent = this;
-			f.Show();
-		}
+		
 		
 		void RectánguloToolStripMenuItemClick(object sender, EventArgs e)
 		{
@@ -89,6 +84,48 @@ namespace formularioprincipal
 		void CelciusAFahrenheitToolStripMenuItemClick(object sender, EventArgs e)
 		{
 			CelciusFahrenheit f = new CelciusFahrenheit();
+			f.MdiParent = this;
+			f.Show();
+		}
+		
+		void CircunferenciaToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			Circumferencia f = new Circumferencia();
+			f.MdiParent = this;
+			f.Show();
+		}
+		
+		void CuadradoToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			AreaCuadrado f = new AreaCuadrado();
+			f.MdiParent = this;
+			f.Show();
+		}
+		
+		void TrapecioToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			Trapecio f = new Trapecio();
+			f.MdiParent = this;
+			f.Show();
+		}
+		
+		void EsferaToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			Esfera f = new Esfera();
+			f.MdiParent = this;
+			f.Show();
+		}
+		
+		void CuboToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			Cubo f = new Cubo();
+			f.MdiParent = this;
+			f.Show();
+		}
+		
+		void PirámideToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			Piramide f = new Piramide();
 			f.MdiParent = this;
 			f.Show();
 		}

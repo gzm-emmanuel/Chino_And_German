@@ -15,3 +15,8 @@ C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\D
 C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.KmMillas.resources
 C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.SegHoras.resources
 C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.CelciusFahrenheit.resources
+C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.Circumferencia.resources
+C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.Trapecio.resources
+C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.Cubo.resources
+C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.Esfera.resources
+C:\Users\makir\formularioPrincipal\formularioprincipal\formularioprincipal\obj\Debug\formularioprincipal.Piramide.resources
