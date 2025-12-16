@@ -1,0 +1,7 @@
+C:\Users\makir\boleta\boleta\obj\Debug\boleta.csprojResolveAssemblyReference.cache
+C:\Users\makir\boleta\boleta\obj\Debug\boleta.c1.resources
+C:\Users\makir\boleta\boleta\obj\Debug\boleta.csproj.GenerateResource.Cache
+C:\Users\makir\boleta\boleta\bin\Debug\boleta.exe
+C:\Users\makir\boleta\boleta\bin\Debug\boleta.pdb
+C:\Users\makir\boleta\boleta\obj\Debug\boleta.exe
+C:\Users\makir\boleta\boleta\obj\Debug\boleta.pdb
